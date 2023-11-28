@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+.header-logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.header-navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.header-navbar a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin-top: 120px;
+    gap: 150px;
+}
+.hero-img img{
+    width:440px;
+    height: 600px;
+    border-radius: 50px;
+}
+.hero-title span{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.hero-title h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.hero-title h3{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+}
+.hero-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-title_btn{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-title_btn button{
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title-btn1{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.title-btn2{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-title_logo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+.hero-title_logo img{
+    width: 30px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+}
+.about-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.about-title span{
+    font-size: 17px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-title h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-content_img img{
+    width: 330px;
+    height: 330px;
+    border-radius: 20px;
+}
+.about-content_parrent{
+    display: flex;
+    align-items: start;
+    gap: 70px;
+}
+.content-exprience ,.content-education{
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+    border: 2px solid black;
+    border-color: gray;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.content-exprience h4 ,.content-education h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: 80px;
+    font-weight: 700;
+}
+.content-exprience span ,.content-education span{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.exprience{
+    display: flex;
+    align-items: center;gap: 40px;
+}
+.content-text{
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    line-height: 25px;
+}
+
+.unit-2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
